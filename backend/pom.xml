@@ -57,6 +57,11 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+            <version>4.0.5</version>
+        </dependency>
         <!-- Spring Framework Core (额外添加以确保完整性) -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -121,6 +126,7 @@
             <id>spring-releases</id>
             <url>https://repo.spring.io/release</url>
         </repository>
+
     </repositories>
 
     <pluginRepositories>
